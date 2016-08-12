@@ -1,0 +1,113 @@
+html,
+body {
+  font-family: OpenSans, sans-serif;
+  scroll-behavior: smooth;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #000000;
+}
+
+a{
+  text-decoration: none;
+  -webkit-transition: all .25s;
+  -moz-transition:  all .25s;
+  -ms-transition:  all .25s;
+  -o-transition:  all .25s;
+  transition:  all .25s;
+}
+a:hover{
+  text-decoration: none;
+}
+a:after{
+  text-decoration: none;
+  border: none;
+}
+a:focus  {
+  text-decoration: none;
+  border: none;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+section{
+
+}
+.row .float_r{
+  float: right;
+}
+
+/****************/
+.event_wrapper{
+  position: relative;
+  float: left;
+}
+.img_holder {
+  overflow: hidden;
+  width: 100%;
+}
+.img_holder img {
+  width: 100%;
+}
+.line_text_elem{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.img_holder_h {
+  overflow: hidden;
+  height: 100%;
+}
+.img_holder_h img {
+  height: 100%;
+}
+
+.position_ab{
+  position: absolute;
+}
+.position_rel{
+  position: relative;
+}
+/****************/
+
+.game {
+  /*width: 440px;*/
+    margin: 0 auto;
+}
+.game li > div {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.game li > .box {
+  background: #979797;
+  color: #979797;
+  vertical-align: top;
+  font-size: 0;
+}
+
+.game li > .b {    /*bomb*/
+  background: #b6182a;
+  color: #979797;
+}
+.box_active{
+  background: #d1d1d1;
+  font-size: 15px;
+  vertical-align: top;
+}
+.flag {
+  background: #546edb !important;
+}
+
+.game li > .b_active {    /*bomb*/
+    background: #b6182a ;
+    color: #b6182a;
+    vertical-align: top;
+}
